@@ -115,4 +115,13 @@ a{
 
         /* margin: auto; */
     }
+    .matieres{
+        width: 98%;
+        margin: auto;
+        display: inline-grid;
+        grid-template-columns: none ;
+        /* background-color: #2196F3; */
+        /* padding: 10px; */
+        grid-gap:2px;
+    }
 }
