@@ -1,3 +1,4 @@
+
 .niveau{
     text-align: center;
 }
@@ -81,10 +82,12 @@ a{
     height: 35px;
     /* margin-top:50px; */
     margin-left: 2%;
-    background-color: #e8eae6;
+    margin-bottom: 2%;
+    background-color: #9d9e9c;
     /* display: none; */
     font-size: 23px;
     padding:1px;
+    font-variant-ligatures: ;
 }
 #courspdf{
     display: none;
@@ -116,12 +119,27 @@ a{
         /* margin: auto; */
     }
     .matieres{
-        width: 98%;
+        width: 100%;
         margin: auto;
         display: inline-grid;
         grid-template-columns: none ;
         /* background-color: #2196F3; */
         /* padding: 10px; */
-        grid-gap:2px;
+        grid-gap:4px;
     }
+    #module{
+
+        height: auto;
+        border-radius: 0px;
+        border: 1px solid #5f334d;
+        padding: 1%;
+        font-size: 80%;
+        text-align: center;
+        /* background-color: rgb(226, 226, 220); */
+    }
+    .cours{
+        border-radius: 0px;
+        padding: 2%;
+    }
+
 }

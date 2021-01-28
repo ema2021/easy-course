@@ -62,7 +62,7 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 30px;
-  width: 50%;
+  width: 30%;
   margin-left: 15%;
 }
 #search {
@@ -74,7 +74,7 @@ header {
   border: 0.5px solid;
   border-color: #553041;
   border-radius: 2%;
-  width: 150px;
+  width: 200px;
   float: left;
   padding-left: 5%;
 }
@@ -98,6 +98,9 @@ button {
   color: white;
   margin-left: 8px;
   /* padding:3%; */
+}
+#sign-btn{
+  margin-left:0px;
 }
 .monnavbar li a {
   display: block;
@@ -334,7 +337,7 @@ input {
 }
 #he_ {
   border-bottom: 3px solid rgb(223, 219, 219);
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
 }
 #footer_contact {
   width: 25%;
@@ -421,7 +424,8 @@ input {
 /* The sidebar menu */
 .sidebar {
   height: 350px; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
+  width: 0;
+   /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 90px;
@@ -765,21 +769,17 @@ button {
     /* bottom: 100%; */
   }
   #logo {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    /* float: left; */
-    justify-self: center;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 18%;
+    right: 7%;
   }
   .monnavbar {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     margin: 0px;
-    /* margin-left: 2%; */
-    /* margin-right: 2%; */
-    /* background-color: #333; */
   }
   .monnavbar li {
     float: none;
@@ -797,14 +797,55 @@ button {
 #sign-btn {
   background-color: #553041;
   height: 30px;
-  width: 22%;
-  font-size: 100%;
+  width:20%;
+  font-size: 90%;
   border: none;
   border-radius: 3px;
   border-color: #553041;
   text-align: start;
   color: white;
-  margin-left: 2px;
+  margin-left: 1px;
   /* padding:3%; */
+}
+#search_bar {
+  /* float: right; */
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-top: 0px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#search {
+  /* text-align: center; */
+  height: 20px;
+}
+#isearch {
+  height: 31px;
+  border: 0.5px solid;
+  border-color: #553041;
+  border-radius: 2%;
+  width: 50%;
+  float: left;
+  padding-left: 2px;
+}
+#sign-btn {
+  background-color: #553041;
+  height: 30px;
+  width: auto;
+  /* font-size: 90%; */
+  border: none;
+  border-radius: 3px;
+  border-color: #553041;
+  text-align: center;
+  color: white;
+  margin-left: 0px;
+  /* padding:3%; */
+}
+.sidebar {
+  top: 65px;
+  width: 100%;
+  left: 0;
 }
 }
