@@ -48,7 +48,6 @@
     display: none;
     /* display: inline-grid; */
     grid-template-columns: auto auto auto ;
-    /* background-color: #2196F3; */
     padding: 10px;
     width: 70%;
     grid-gap:5px;
@@ -59,7 +58,7 @@
 .cours{
     background-color: #d5dbd0;
     border-radius: 3px;
-    padding: 4%;
+    padding: 1%;
 }
 .cours button{
     background-color: #553041;
@@ -99,7 +98,7 @@ a{
     /* border-radius: 10px; */
     /* background-color: #553041; */
     margin-top: 10px;
-    width: 96%;
+    width: auto;
     /* height: 500px; */
 }
 #mod1,#mod2,#mod3,#mod4,#mod5{
@@ -191,6 +190,10 @@ a{
     }
     #pdfhere{
         width: 100%;
+    }
+    #pdfhere{
+        width:100%;
+        justify-self: center;
     }
 
 }
