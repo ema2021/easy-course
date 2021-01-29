@@ -1,241 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acceuil</title>
-    <link rel="stylesheet" href="../css/project.css">
-    <link rel="stylesheet" href="../css/langages.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/project.css" />
+    <link rel="stylesheet" href="../css/langages.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="../js/main.js"></script>
     <script src="../js/validate.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
-
-<body>
+  </head>
+  <body>
     <header id="myHeader">
-        <ul class="monnavbar">
-            <li>
-                <button type="button" id="sidemenu" onclick="openNav()">
-                    <i class="fa fa-bars" style="font-size:40px;color:#553041;margin-top:10px;"></i>
-                </button>
-            </li>
-            <li>
-                <a href="./acceuil.html"><img src="../src/Copy of Easy5.png" id="logo"></a>
-            </li>
-            <li id="search_bar">
-                <input type="search" id="isearch" placeholder="Seacrh here">
-                <button style="font-size:18px;" id="search-btn">
-                    <i class="fa fa-search"></i>
-                </button>
-                <button type="button" id="sign-btn"
-                    onclick="document.getElementById('id02').style.display='block'">S'inscrire</button>
-                <button type="button" id="login-btn"
-                    onclick="document.getElementById('id01').style.display='block'">Connecter</button>
-            </li>
-        </ul>
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="acceuil.html">Acceuil</a>
-            <a href="langages.html">Langages</a>
-            <a href="soutien.html">Soutien</a>
-            <div class="dropdown">
-                <button class="dropbtn">Cours <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a id="nav_a" onmouseover="semstrelink('smstr_1','smstr_2','smstr_3')">1 ère Année</a>
-                    <div id="smstr_1" class="smstr_">
-                        <a href="./a1_s1.html" id="nav_a">Semetre 1</a>
-                        <a href="./a1_s2.html" id="nav_a">Semetre 2</a>
-    
-                    </div>    
-                    <a  id="nav_a" onmouseover="semstrelink('smstr_2','smstr_3','smstr_1')">2 éme Année</a>
-                    <div id="smstr_2" class="smstr_">
-                        <a href="./a2_s1.html" id="nav_a">Semetre 1</a>
-                        <a href="./a2_s2.html" id="nav_a">Semetre 2</a>
-    
-                    </div>
-                    <a onmouseover="semstrelink('smstr_3','smstr_1','smstr_2')" id="nav_a">3 éme Année</a>
-                    <div id="smstr_3" class="smstr_">
-                        <a href="./a3_s1.html" id="nav_a">Semetre 1</a>
-                        <a href="./a3_s2.html" id="nav_a">Semetre 2</a>
-    
-                    </div>
-                </div>
+      <ul class="monnavbar">
+        <li>
+          <button type="button" id="sidemenu" onclick="openNav()">
+            <i
+              class="fa fa-bars"
+              style="font-size: 40px; color: #553041; margin-top: 10px"
+            ></i>
+          </button>
+        </li>
+        <li>
+          <a href="./acceuil.html"
+            ><img src="../src/Copy of Easy5.png" id="logo"
+          /></a>
+        </li>
+        <li id="search_bar">
+          <input type="search" id="isearch" placeholder="Seacrh here" />
+          <button style="font-size: 18px" id="search-btn">
+            <i class="fa fa-search"></i>
+          </button>
+          <button
+            type="button"
+            id="sign-btn"
+            onclick="document.getElementById('id02').style.display='block'"
+          >
+            S'inscrire
+          </button>
+          <button
+            type="button"
+            id="login-btn"
+            onclick="document.getElementById('id01').style.display='block'"
+          >
+            Connecter
+          </button>
+        </li>
+      </ul>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="acceuil.html">Acceuil</a>
+        <a href="langages.html">Langages</a>
+        <a href="soutien.html">Soutien</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Cours <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a
+              id="nav_a"
+              onmouseover="semstrelink('smstr_1','smstr_2','smstr_3')"
+              >1 ère Année</a
+            >
+            <div id="smstr_1" class="smstr_">
+              <a href="./a1_s1.html" id="nav_a">Semetre 1</a>
+              <a href="./a1_s2.html" id="nav_a">Semetre 2</a>
             </div>
+            <a
+              id="nav_a"
+              onmouseover="semstrelink('smstr_2','smstr_3','smstr_1')"
+              >2 éme Année</a
+            >
+            <div id="smstr_2" class="smstr_">
+              <a href="./a2_s1.html" id="nav_a">Semetre 1</a>
+              <a href="./a2_s2.html" id="nav_a">Semetre 2</a>
+            </div>
+            <a
+              onmouseover="semstrelink('smstr_3','smstr_1','smstr_2')"
+              id="nav_a"
+              >3 éme Année</a
+            >
+            <div id="smstr_3" class="smstr_">
+              <a href="./a3_s1.html" id="nav_a">Semetre 1</a>
+              <a href="./a3_s2.html" id="nav_a">Semetre 2</a>
+            </div>
+          </div>
         </div>
-        <div id="id01" class="modal">
+      </div>
+      <div id="id01" class="modal">
+        <form
+          class="modal-content animate"
+          action="/action_page.php"
+          method="post"
+        >
+          <div class="imgcontainer">
+            <span
+              onclick="document.getElementById('id01').style.display='none'"
+              class="close"
+              title="Close Modal"
+              >&times;</span
+            >
+            <img src="../src/img_avatar2.png" alt="Avatar" class="avatar" />
+          </div>
 
-            <form class="modal-content animate" action="/action_page.php" method="post">
-                <div class="imgcontainer">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
-                        title="Close Modal">&times;</span>
-                    <img src="../src/img_avatar2.png" alt="Avatar" class="avatar">
-                </div>
+          <div class="container">
+            <label for="uname"><b>Nom d'utilisateur:</b></label>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="uname"
+              id="loginInput"
+              required
+            /><br />
+            <span id="uname_mess"></span><br />
 
-                <div class="container">
-                    <label for="uname"><b>Nom d'utilisateur:</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" id="loginInput" required><br>
-                    <span id="uname_mess"></span><br>
+            <label for="psw"><b>Mot de Passe:</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              id="loginInput"
+              required
+            />
 
-                    <label for="psw"><b>Mot de Passe:</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" id="loginInput" required>
+            <button type="submit" id="Lginbutton">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" />
+              Remember me
+            </label>
+          </div>
 
-                    <button type="submit" id="Lginbutton">Login</button>
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                    </label>
-                </div>
-
-                <div class="container" style="background-color:#f1f1f1">
-                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
-                        class="cancelbtn">Annuler</button>
-                    <span class="psw">Mot de passe <a href="#">Oublie?</a></span>
-                </div>
-            </form>
-        </div>
-        <div id="id02" class="modal">
-
-            <form class="modal-content animate" action="/action_page.php" method="post">
-                <div class="imgcontainer">
-                    <span onclick="document.getElementById('id02').style.display='none'" class="close"
-                        title="Close Modal">&times;</span>
-                    <img src="../src/img_avatar2.png" alt="Avatar" class="avatar">
-                </div>
-
-                <div class="container">
-                    <label for="uname"><b>Nom:</b></label>
-                    <input type="text" placeholder="Enter Name" name="name" id="signupName"
-                        oninput="validateName('signupName', 'signupName_mess')" required><br>
-                    <span id="signupInput_mess"></span><br>
-                    <label for="uname"><b>Prenom:</b></label>
-                    <input type="text" placeholder="Entrer Votre Prenom" name="surname" id="signSurname" required>
-                    <label for="uname"><b>Nom d'utilisateur:</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" id="signUsername" required>
-                    <label for="uname"><b>Email:</b></label>
-                    <input type="email" placeholder="Enter Email" name="uemail" id="signEmail" required>
-
-                    <label for="psw"><b>Mot de Passe:</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
-
-                    <button type="submit" id="signupbutton">Signup</button>
-                </div>
-
-                <div class="container" style="background-color:#f1f1f1">
-                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
-                        class="cancelbtn">Annuler</button>
-                </div>
-            </form>
-        </div>
-
-        <script>
-            // Get the modal
-            var modal = document.getElementById('id02');
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
-
-        <script>
-            // Get the modal
-            var modal = document.getElementById('id01');
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
-    </header>
-    <main class="language_prn"id="language_prn">
-        <div class="english_l">
-            <h1>
-                Did You ever Wanted to be fluent in <span>English?</span>
-            </h1>
-            <p>
-                Of Course Yes !, welcome My freind you are in the right place. No prerequisites needed. Just Enroll in
-                this course and you are all set to achieve the fluency. you were hastling for it
-            </p>
-        </div>
-        <div class="french_l">
-            <h1>
-                Parler,Parlait, Parlais. Vous avez essaye plusieurs methodes pour etudier <span>Francais?</span>
-            </h1>
-            <p>
-                S'inscrire a notre programme pour benefiter de les cours de notre creative professeurs. Le probleme de
-                Communication sera de passé.
-            </p>
-        </div>
-    </main>
-    <button id="sabonner" onclick="show('inscrirePourLangage',740)">S'abonner</button>
-    <div class="inscrirePourLangage"id="inscrirePourLangage">
-        <form action="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, hic?</p>
-            <br><label for="name">Nom <span>*</span>:</label><br><br>
-            <input type="text" name="name"   required><br><br>
-            <label for="surname">Prénom <span>*</span>:</label><br><br>
-            <input type="text" name="surname"   required><br><br>
-            <label for="address">Adresse <span>*</span>:</label><br><br>
-            <input type="text" name="address"   required><br><br>
-            <label for="phone">Téléphone <span>*</span>:</label><br><br>
-            <input type="text" name="phone" required><br><br>
-            <label for="email">Adresse Email <span>*</span>:</label><br><br>
-            <input type="email" name="email"   required><br><br>
-            <label for="language">Options de Langage <span>*</span>:</label><br><br>
-            <input type="checkbox" name="lang1"><label for="" id="lang_label">Français</label>
-            <input type="checkbox" name="lang2" ><label for="" id="lang_label">Anglais</label><br><br>
-            <input type="submit" value="Envoyer"><br><br>
-            <button type="button"id="annuler_sabboner" onclick="hide('inscrirePourLangage')">Annuler</button>
+          <div class="container" style="background-color: #f1f1f1">
+            <button
+              type="button"
+              onclick="document.getElementById('id01').style.display='none'"
+              class="cancelbtn"
+            >
+              Annuler
+            </button>
+            <span class="psw">Mot de passe <a href="#">Oublie?</a></span>
+          </div>
         </form>
+      </div>
+      <div id="id02" class="modal">
+        <form
+          class="modal-content animate"
+          action="/action_page.php"
+          method="post"
+        >
+          <div class="imgcontainer">
+            <span
+              onclick="document.getElementById('id02').style.display='none'"
+              class="close"
+              title="Close Modal"
+              >&times;</span
+            >
+            <img src="../src/img_avatar2.png" alt="Avatar" class="avatar" />
+          </div>
+
+          <div class="container">
+            <label for="uname"><b>Nom:</b></label>
+            <input
+              type="text"
+              placeholder="Enter Name"
+              name="name"
+              id="signupName"
+              oninput="validateName('signupName', 'signupName_mess')"
+              required
+            /><br />
+            <span id="signupInput_mess"></span><br />
+            <label for="uname"><b>Prenom:</b></label>
+            <input
+              type="text"
+              placeholder="Entrer Votre Prenom"
+              name="surname"
+              id="signSurname"
+              required
+            />
+            <label for="uname"><b>Nom d'utilisateur:</b></label>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="uname"
+              id="signUsername"
+              required
+            />
+            <label for="uname"><b>Email:</b></label>
+            <input
+              type="email"
+              placeholder="Enter Email"
+              name="uemail"
+              id="signEmail"
+              required
+            />
+
+            <label for="psw"><b>Mot de Passe:</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+
+            <button type="submit" id="signupbutton">Signup</button>
+          </div>
+
+          <div class="container" style="background-color: #f1f1f1">
+            <button
+              type="button"
+              onclick="document.getElementById('id02').style.display='none'"
+              class="cancelbtn"
+            >
+              Annuler
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <script>
+        // Get the modal
+        var modal = document.getElementById("id02");
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        };
+      </script>
+
+      <script>
+        // Get the modal
+        var modal = document.getElementById("id01");
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        };
+      </script>
+    </header>
+    <main class="language_prn" id="language_prn">
+      <div class="english_l">
+        <h1>Did You ever Wanted to be fluent in <span>English?</span></h1>
+        <p>
+          Of Course Yes !, welcome My freind you are in the right place. No
+          prerequisites needed. Just Enroll in this course and you are all set
+          to achieve the fluency. you were hastling for it
+        </p>
+      </div>
+      <div class="french_l">
+        <h1>
+          Parler,Parlait, Parlais. Vous avez essaye plusieurs methodes pour
+          etudier <span>Francais?</span>
+        </h1>
+        <p>
+          S'inscrire a notre programme pour benefiter de les cours de notre
+          creative professeurs. Le probleme de Communication sera de passé.
+        </p>
+      </div>
+    </main>
+    <button id="sabonner" onclick="show('inscrirePourLangage',740)">
+      S'abonner
+    </button>
+    <div class="inscrirePourLangage" id="inscrirePourLangage">
+      <form action="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, hic?
+        </p>
+        <br /><label for="name">Nom <span>*</span>:</label><br /><br />
+        <input type="text" name="name" required /><br /><br />
+        <label for="surname">Prénom <span>*</span>:</label><br /><br />
+        <input type="text" name="surname" required /><br /><br />
+        <label for="address">Adresse <span>*</span>:</label><br /><br />
+        <input type="text" name="address" required /><br /><br />
+        <label for="phone">Téléphone <span>*</span>:</label><br /><br />
+        <input type="text" name="phone" required /><br /><br />
+        <label for="email">Adresse Email <span>*</span>:</label><br /><br />
+        <input type="email" name="email" required /><br /><br />
+        <label for="language">Options de Langage <span>*</span>:</label
+        ><br /><br />
+        <input type="checkbox" name="lang1" /><label for="" id="lang_label"
+          >Français</label
+        >
+        <input type="checkbox" name="lang2" /><label for="" id="lang_label"
+          >Anglais</label
+        ><br /><br />
+        <input type="submit" value="Envoyer" /><br /><br />
+        <button
+          type="button"
+          id="annuler_sabboner"
+          onclick="hide('inscrirePourLangage')"
+        >
+          Annuler
+        </button>
+      </form>
     </div>
 
     <footer>
-        <div class="footer_newsletter">
-            <h1 style="color: white;font-weight: bold;">S'INSCRIRE À LA NEWSLETTER</h1>
-            <input type="email" placeholder="Email" id="footer_email"
-                oninput="validateEmail('footer_email', 'ft_email_mess')">
-            <button type="button" href="#" style="font-size:18px;">SUBMIT</button><br><br>
-            <span id="ft_email_mess" style="color:#8b9974;"></span>
-        </div>
-        <div class="footer_links">
-            <img src="../src/Copy of Easy5.png" id="logof">
+      <div class="footer_newsletter">
+        <h1 style="color: white; font-weight: bold">
+          S'INSCRIRE À LA NEWSLETTER
+        </h1>
+        <input
+          type="email"
+          placeholder="Email"
+          id="footer_email"
+          oninput="validateEmail('footer_email', 'ft_email_mess')"
+        />
+        <button type="button" href="#" style="font-size: 18px">SUBMIT</button
+        ><br /><br />
+        <span id="ft_email_mess" style="color: #8b9974"></span>
+      </div>
+      <div class="footer_links">
+        <img src="../src/Copy of Easy5.png" id="logof" />
 
-            <ul id="footer_contact">
-                <li id="he_">
-                    <h2>CONTACT</h2>
-                </li>
-                <li><i class="fas fa-phone" aria-hidden="true"
-                        style="transform:rotate(0deg);color: #fff;margin-right: 10px;font-size: 22px;"></i>
-                    +212(0)6079061</li>
-                <li><i class="fas fa-map-marker-alt" aria-hidden="true"
-                        style="transform:rotate(0deg);color: #fff;margin-right: 10px;font-size: 22px;"></i>
-                    7487 Gaylord Fort</li>
-                <li><i class="fa fa-envelope" aria-hidden="true"
-                        style="transform:rotate(0deg);color: #fff;"></i>
-                         easy-course@gmail.com</li>
-            </ul>
-            <ul id="social_media">
-                <li id="he_">
-                    <h2>Social Media</h2>
-                </li>
-                <li><a href="#" class="fab fa-facebook"></a>  facebook.com/easy-course</li>
-                <li><a href="#" class="fab fa-whatsapp"></a> +212612538694</li>
-                <li><a href="#" class="fab fa-instagram"></a>  instagram.com/easy-course</li>
-                <li><a href="#" class="fab fa-facebook-messenger"></a> Cantact via Messenger</li>
-            </ul>
-        </div>
+        <ul id="footer_contact">
+          <li id="he_">
+            <h2>CONTACT</h2>
+          </li>
+          <li>
+            <i
+              class="fas fa-phone"
+              aria-hidden="true"
+              style="
+                transform: rotate(0deg);
+                color: #fff;
+                margin-right: 10px;
+                font-size: 22px;
+              "
+            ></i>
+            +212(0)6079061
+          </li>
+          <li>
+            <i
+              class="fas fa-map-marker-alt"
+              aria-hidden="true"
+              style="
+                transform: rotate(0deg);
+                color: #fff;
+                margin-right: 10px;
+                font-size: 22px;
+              "
+            ></i>
+            7487 Gaylord Fort
+          </li>
+          <li>
+            <i
+              class="fa fa-envelope"
+              aria-hidden="true"
+              style="transform: rotate(0deg); color: #fff"
+            ></i>
+            easy-course@gmail.com
+          </li>
+        </ul>
+        <ul id="social_media">
+          <li id="he_">
+            <h2>Social Media</h2>
+          </li>
+          <li>
+            <a href="#" class="fab fa-facebook"></a> facebook.com/easy-course
+          </li>
+          <li><a href="#" class="fab fa-whatsapp"></a> +212612538694</li>
+          <li>
+            <a href="#" class="fab fa-instagram"></a> instagram.com/easy-course
+          </li>
+          <li>
+            <a href="#" class="fab fa-facebook-messenger"></a> Cantact via
+            Messenger
+          </li>
+        </ul>
+      </div>
     </footer>
     <script>
-        var w=window.innerWidth;
-        if (w<=760) {
-            document.getElementById('language_prn').style.display='flex';
-        }
+      var w = window.innerWidth;
+      if (w <= 760) {
+        document.getElementById("language_prn").style.display = "flex";
+      }
     </script>
-</body>
-
+  </body>
 </html>
