@@ -15,7 +15,7 @@
     <script src="../js/validate.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<body style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+<body>
     <header id="myHeader">
         <ul class="monnavbar">
             <li>
@@ -24,15 +24,17 @@
                 </button>
             </li>
             <li>
-                <a><img src="../src/Copy of Easy5.png" id="logo"></a>
+                <a href="./acceuil.html"><img src="../src/Copy of Easy5.png" id="logo"></a>
             </li>
             <li id="search_bar">
                 <input type="search" id="isearch" placeholder="Seacrh here">
                 <button style="font-size:18px;" id="search-btn">
                     <i class="fa fa-search"></i>
                 </button>
-                <button type="button"  id="sign-btn" onclick="document.getElementById('id02').style.display='block'">S'inscrire</button>
-                <button type="button"  id="login-btn"  onclick="document.getElementById('id01').style.display='block'">Connecter</button>
+                <button type="button" id="sign-btn"
+                    onclick="document.getElementById('id02').style.display='block'">S'inscrire</button>
+                <button type="button" id="login-btn"
+                    onclick="document.getElementById('id01').style.display='block'">Connecter</button>
             </li>
         </ul>
         <div id="mySidebar" class="sidebar">
@@ -41,96 +43,116 @@
             <a href="langages.html">Langages</a>
             <a href="soutien.html">Soutien</a>
             <div class="dropdown">
-                <button class="dropbtn">Cours  <i class="fa fa-caret-down"></i></button>
+                <button class="dropbtn">Cours <i class="fa fa-caret-down"></i></button>
                 <div class="dropdown-content">
-                  <a href="niveau1.html"id="nav_a">1 ere Annee</a>
-                  <a href="niveau2.html" id="nav_a">2 eme Annee</a>
-                  <a href="niveau3.html"id="nav_a">3 eme Annee</a>
+                    <a id="nav_a" onmouseover="semstrelink('smstr_1','smstr_2','smstr_3')">1 ère Année</a>
+                    <div id="smstr_1" class="smstr_">
+                        <a href="./a1_s1.html" id="nav_a">Semetre 1</a>
+                        <a href="./a1_s2.html" id="nav_a">Semetre 2</a>
+    
+                    </div>    
+                    <a  id="nav_a" onmouseover="semstrelink('smstr_2','smstr_3','smstr_1')">2 éme Année</a>
+                    <div id="smstr_2" class="smstr_">
+                        <a href="./a2_s1.html" id="nav_a">Semetre 1</a>
+                        <a href="./a2_s2.html" id="nav_a">Semetre 2</a>
+    
+                    </div>
+                    <a onmouseover="semstrelink('smstr_3','smstr_1','smstr_2')" id="nav_a">3 éme Année</a>
+                    <div id="smstr_3" class="smstr_">
+                        <a href="./a3_s1.html" id="nav_a">Semetre 1</a>
+                        <a href="./a3_s2.html" id="nav_a">Semetre 2</a>
+    
+                    </div>
                 </div>
-              </div>
-          </div>
-          <div id="id01" class="modal">
-  
+            </div>
+        </div>
+        <div id="id01" class="modal">
+
             <form class="modal-content animate" action="/action_page.php" method="post">
-              <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="../src/img_avatar2.png" alt="Avatar" class="avatar">
-              </div>
-          
-              <div class="container">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" id="loginInput" required><br>
-                <span id="uname_mess"></span><br>
-          
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" id="loginInput"required>
-                  
-                <button type="submit" id="Lginbutton">Login</button>
-                <label>
-                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-              </div>
-          
-              <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-              </div>
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <img src="../src/img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Nom d'utilisateur:</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" id="loginInput" required><br>
+                    <span id="uname_mess"></span><br>
+
+                    <label for="psw"><b>Mot de Passe:</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="loginInput" required>
+
+                    <button type="submit" id="Lginbutton">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Annuler</button>
+                    <span class="psw">Mot de passe <a href="#">Oublie?</a></span>
+                </div>
             </form>
-          </div>
-          <div id="id02" class="modal">
-  
+        </div>
+        <div id="id02" class="modal">
+
             <form class="modal-content animate" action="/action_page.php" method="post">
-              <div class="imgcontainer">
-                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="../src/img_avatar2.png" alt="Avatar" class="avatar">
-              </div>
-          
-              <div class="container">
-                <label for="uname"><b>Name:</b></label>
-                <input type="text" placeholder="Enter Name" name="name" id="signupName" oninput="validateName('signupName', 'signupName_mess')" required ><br>
-                <span id="signupInput_mess"></span><br>
-                <label for="uname"><b>Surname:</b></label>
-                <input type="text" placeholder="Entrer Votre Prenom" name="surname" id="signSurname" required >
-                <label for="uname"><b>Username:</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" id="signUsername" required >
-                <label for="uname"><b>email:</b></label>
-                <input type="email" placeholder="Enter Email" name="uemail" id="signEmail" required >
-          
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw"  required >
-                  
-                <button type="submit" id="signupbutton">Signup</button>
-              </div>
-          
-              <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-              </div>
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <img src="../src/img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Nom:</b></label>
+                    <input type="text" placeholder="Enter Name" name="name" id="signupName"
+                        oninput="validateName('signupName', 'signupName_mess')" required><br>
+                    <span id="signupInput_mess"></span><br>
+                    <label for="uname"><b>Prenom:</b></label>
+                    <input type="text" placeholder="Entrer Votre Prenom" name="surname" id="signSurname" required>
+                    <label for="uname"><b>Nom d'utilisateur:</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" id="signUsername" required>
+                    <label for="uname"><b>Email:</b></label>
+                    <input type="email" placeholder="Enter Email" name="uemail" id="signEmail" required>
+
+                    <label for="psw"><b>Mot de Passe:</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" id="signupbutton">Signup</button>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                        class="cancelbtn">Annuler</button>
+                </div>
             </form>
-          </div>
-          
-          <script>
-          // Get the modal
-          var modal = document.getElementById('id02');
-          
-          // When the user clicks anywhere outside of the modal, close it
-          window.onclick = function(event) {
-              if (event.target == modal) {
-                  modal.style.display = "none";
-              }
-          }
-          </script>
-          
-          <script>
-          // Get the modal
-          var modal = document.getElementById('id01');
-          
-          // When the user clicks anywhere outside of the modal, close it
-          window.onclick = function(event) {
-              if (event.target == modal) {
-                  modal.style.display = "none";
-              }
-          }
-          </script>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id02');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
     </header>
     <main class="contenu_principal" id="sticky">
         <div class="descrip">

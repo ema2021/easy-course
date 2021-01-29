@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niveau1</title>
-    <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="./../css/project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/niveau.css">
+    <link rel="stylesheet" href="./../css/niveau.css">
     <script src="../js/main.js"></script>
     <script src="../js/validate.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -22,8 +22,8 @@
                 </button>
             </li>
             <li>
-                <a><img src="../src/Copy of Easy5.png" id="logo"></a>
-            </li>`
+                <a href="./acceuil.html"><img src="../src/Copy of Easy5.png" id="logo"></a>
+            </li>
             <li id="search_bar">
                 <input type="search" id="isearch" placeholder="Seacrh here">
                 <button style="font-size:18px;" id="search-btn">
@@ -43,9 +43,24 @@
             <div class="dropdown">
                 <button class="dropbtn">Cours <i class="fa fa-caret-down"></i></button>
                 <div class="dropdown-content">
-                    <a href="niveau1.html" id="nav_a">1 ere Annee</a>
-                    <a href="niveau2.html" id="nav_a">2 eme Annee</a>
-                    <a href="niveau3.html" id="nav_a">3 eme Annee</a>
+                    <a id="nav_a" onmouseover="semstrelink('smstr_1','smstr_2','smstr_3')">1 ère Année</a>
+                    <div id="smstr_1" class="smstr_">
+                        <a href="./a1_s1.html" id="nav_a">Semetre 1</a>
+                        <a href="./a1_s2.html" id="nav_a">Semetre 2</a>
+    
+                    </div>    
+                    <a  id="nav_a" onmouseover="semstrelink('smstr_2','smstr_3','smstr_1')">2 éme Année</a>
+                    <div id="smstr_2" class="smstr_">
+                        <a href="./a2_s1.html" id="nav_a">Semetre 1</a>
+                        <a href="./a2_s2.html" id="nav_a">Semetre 2</a>
+    
+                    </div>
+                    <a onmouseover="semstrelink('smstr_3','smstr_1','smstr_2')" id="nav_a">3 éme Année</a>
+                    <div id="smstr_3" class="smstr_">
+                        <a href="./a3_s1.html" id="nav_a">Semetre 1</a>
+                        <a href="./a3_s2.html" id="nav_a">Semetre 2</a>
+    
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,23 +74,23 @@
                 </div>
 
                 <div class="container">
-                    <label for="uname"><b>Nom D'utilisateur:</b></label>
+                    <label for="uname"><b>Nom d'utilisateur:</b></label>
                     <input type="text" placeholder="Enter Username" name="uname" id="loginInput" required><br>
                     <span id="uname_mess"></span><br>
 
                     <label for="psw"><b>Mot de Passe:</b></label>
                     <input type="password" placeholder="Enter Password" name="psw" id="loginInput" required>
 
-                    <button type="submit" id="Lginbutton">Se connecter</button>
+                    <button type="submit" id="Lginbutton">Login</button>
                     <label>
-                        <input type="checkbox" checked="checked" name="remember"> Rester Connecte
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
                     </label>
                 </div>
 
                 <div class="container" style="background-color:#f1f1f1">
                     <button type="button" onclick="document.getElementById('id01').style.display='none'"
-                        class="cancelbtn">Cancel</button>
-                    <span class="psw">Forgot <a href="#">password?</a></span>
+                        class="cancelbtn">Annuler</button>
+                    <span class="psw">Mot de passe <a href="#">Oublie?</a></span>
                 </div>
             </form>
         </div>
@@ -95,7 +110,7 @@
                     <span id="signupInput_mess"></span><br>
                     <label for="uname"><b>Prenom:</b></label>
                     <input type="text" placeholder="Entrer Votre Prenom" name="surname" id="signSurname" required>
-                    <label for="uname"><b>Nom D'utilisateur:</b></label>
+                    <label for="uname"><b>Nom d'utilisateur:</b></label>
                     <input type="text" placeholder="Enter Username" name="uname" id="signUsername" required>
                     <label for="uname"><b>Email:</b></label>
                     <input type="email" placeholder="Enter Email" name="uemail" id="signEmail" required>
@@ -103,7 +118,7 @@
                     <label for="psw"><b>Mot de Passe:</b></label>
                     <input type="password" placeholder="Enter Password" name="psw" required>
 
-                    <button type="submit" id="signupbutton">S'inscrire</button>
+                    <button type="submit" id="signupbutton">Signup</button>
                 </div>
 
                 <div class="container" style="background-color:#f1f1f1">
@@ -119,7 +134,6 @@
 
             // When the user clicks anywhere outside of the modal, close it
             window.onclick = function (event) {
-                body.style.background = 'rgba(0,0,0,0.4)';
                 if (event.target == modal) {
                     modal.style.display = "none";
                 }
@@ -140,6 +154,7 @@
     </header>
     <main class="niveau" id="sticky">
         <div class="matieres" id="matiere">
+            <a id="smstr_entete">Le premier Semestre</a>
             <div id="module">
                 <a href="#"><img src="../src/module1.jpg" id="modulejpg"></a>
                 <h4 id="moduletitle">Sciences De la Vie et de La Terre (SVT) </h4>
@@ -168,8 +183,8 @@
                 <a href="#"><img src="../src/module1.jpg" id="modulejpg"></a>
                 <h4 id="moduletitle">Anglais</h4>
                 <button id="module-btn" onclick="accedercours('lescoursdemodule5','mod5','matiere')">Acceder</button>
-
             </div>
+            <h2 id="smstr_entete">Le remier Semestre</h2>
         </div>
         <div id="mod1">
             <button type="button" class="rtr-btn" id="rtr-btn1"

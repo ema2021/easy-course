@@ -89,6 +89,10 @@ a{
     padding:1px;
     font-variant-ligatures: ;
 }
+#rtr-btn5{
+    position: absolute;
+    left:0;
+}
 #courspdf{
     display: none;
     border: none;
@@ -101,6 +105,9 @@ a{
 #mod1,#mod2,#mod3,#mod4,#mod5{
     display: none;
     
+}
+#smstr_entete{
+    font-size: 30px;
 }
 @media (max-width:375px){
     .lescoursdemodule1{
@@ -140,6 +147,50 @@ a{
     .cours{
         border-radius: 0px;
         padding: 2%;
+    }
+
+}
+@media (max-width:375px){
+    .lescoursdemodule1{
+        display: none;
+        /* display: inline-grid; */
+        /* grid-template-columns: auto auto  ; */
+        /* background-color: #2196F3; */
+        /* padding: 10px; */
+        width: 100%;
+        grid-gap:5px;
+        margin-top: 10px;
+        grid-template-columns: none;
+        margin: 0px;
+        padding: 0px;
+
+        /* margin: auto; */
+    }
+    .matieres{
+        width: 100%;
+        margin: auto;
+        display: inline-grid;
+        grid-template-columns: none ;
+        /* background-color: #2196F3; */
+        /* padding: 10px; */
+        grid-gap:4px;
+    }
+    #module{
+
+        height: auto;
+        border-radius: 0px;
+        border: 1px solid #5f334d;
+        padding: 1%;
+        font-size: 80%;
+        text-align: center;
+        /* background-color: rgb(226, 226, 220); */
+    }
+    .cours{
+        border-radius: 0px;
+        padding: 2%;
+    }
+    #pdfhere{
+        width: 100%;
     }
 
 }
