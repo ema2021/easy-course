@@ -149,7 +149,7 @@ a{
     }
 
 }
-@media (max-width:414px){
+@media (max-width:489px){
     .lescoursdemodule1{
         display: none;
         /* display: inline-grid; */
