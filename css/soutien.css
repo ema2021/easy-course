@@ -5,8 +5,8 @@
 .descrip p,.descrip h1,.descrip button{
     margin-top: 5%;
 }
-.descrip{
-
+.descrip button{
+    width: 30%;
 }
 
 .inscrire_form{

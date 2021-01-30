@@ -227,3 +227,9 @@ a{
 
 }
 
+@media (min-width:543px) and (max-width:773px){
+    .cours{
+        border-radius: 5px;
+        padding: 1%;
+    }
+}

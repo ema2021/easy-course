@@ -187,7 +187,6 @@ button {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #745965;
   color: white;
 }
 .smstr_{
@@ -333,10 +332,12 @@ input {
   margin-right: 2%;
   margin-top: 40px;
   margin-right: 14%;
+  color: white;
 }
 .footer_links ul li {
   /* margin-top: 20px; */
-  color: rgb(223, 219, 219);
+  /* color: rgb(223, 219, 219); */
+  color:white;
 }
 #he_ {
   border-bottom: 3px solid rgb(223, 219, 219);
@@ -344,6 +345,9 @@ input {
 }
 #footer_contact {
   width: 25%;
+}
+#footer_contact li{
+  margin-top: 8px;
 }
 /* Css Pour la page contactez-nous */
 /* .contact_div{
@@ -570,9 +574,7 @@ span.psw {
   /* Black w/ opacity */
   /* padding-top: 60px; */
 }
-#id02 {
-  height: 890px;
-}
+
 
 /* Modal Content/Box */
 .modal-content {
@@ -764,12 +766,12 @@ button {
     border-bottom: 2px solid #553041;
     /* border-: 12px; */
     /* margin-bottom: 10%; */
-    top: 0;
-    position: sticky;
-    z-index: 10000;
-    width: 100%;
-    padding: 5px;
-    margin-left: 0px;
+    /* top: 0; */
+    /* position: sticky; */
+    /* z-index: 10000; */
+    /* width: 100%; */
+    /* padding: 5px; */
+    /* margin-left: 0px; */
     /* bottom: 100%; */
   }
   #logo {
