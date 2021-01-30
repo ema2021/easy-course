@@ -49,7 +49,7 @@
     /* display: inline-grid; */
     grid-template-columns: auto auto auto ;
     padding: 10px;
-    width: 70%;
+    width: 80%;
     grid-gap:5px;
     margin: auto;
     margin-top: 1%;
@@ -149,7 +149,7 @@ a{
     }
 
 }
-@media (max-width:489px){
+@media (max-width:773px){
     .lescoursdemodule1{
         display: none;
         /* display: inline-grid; */
@@ -195,5 +195,35 @@ a{
         width:100%;
         justify-self: center;
     }
+    @media (min-width:545px){
+        .matieres{
+            width: 100%;
+            margin: auto;
+            display: inline-grid;
+            grid-template-columns: auto auto ;
+            /* background-color: #2196F3; */
+            /* padding: 10px; */
+            grid-gap:6px;
+        }
+        #module{
+            border-radius: 5px;
+        }
+        .lescoursdemodule1{
+            display: none;
+            /* display: inline-grid; */
+            /* grid-template-columns: auto auto  ; */
+            /* background-color: #2196F3; */
+            /* padding: 10px; */
+            width: 100%;
+            grid-gap:5px;
+            margin-top: 10px;
+            grid-template-columns: auto auto;
+            margin: 0px;
+            padding: 0px;
+    
+            /* margin: auto; */
+        }
+    }
 
 }
+
