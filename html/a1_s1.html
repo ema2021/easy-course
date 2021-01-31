@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1ére Année-Semestre 1</title>
     <link rel="stylesheet" href="./../css/project.css" />
+    <link rel="stylesheet" href="../css/langages.css">
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -250,7 +252,7 @@
       <div class="matieres" id="matiere">
         <a id="smstr_entete">Le premier Semestre</a>
         <div id="module">
-          <a href="#"><img src="../src/module1.jpg" id="modulejpg" /></a>
+          <a href="#"><img src="../src/svt.jpg" id="modulejpg" /></a>
           <h4 id="moduletitle">SVT</h4>
           <button
             id="module-btn"
@@ -260,7 +262,7 @@
           </button>
         </div>
         <div id="module">
-          <a href="#"><img src="../src/module1.jpg" id="modulejpg" /></a>
+          <a href="#"><img src="../src/physic.jpg" id="modulejpg" /></a>
           <h4 id="moduletitle">Physique</h4>
           <button
             id="module-btn"
@@ -270,7 +272,7 @@
           </button>
         </div>
         <div id="module">
-          <a href="#"><img src="../src/module1.jpg" id="modulejpg" /></a>
+          <a href="#"><img src="../src/math.jpg" id="modulejpg" /></a>
           <h4 id="moduletitle">Mathématiques</h4>
           <button
             id="module-btn"
@@ -280,7 +282,7 @@
           </button>
         </div>
         <div id="module">
-          <a href="#"><img src="../src/module1.jpg" id="modulejpg" /></a>
+          <a href="#"><img src="../src/fr.jpg" id="modulejpg" /></a>
           <h4 id="moduletitle">Français</h4>
           <button
             id="module-btn"
@@ -290,7 +292,7 @@
           </button>
         </div>
         <div id="module">
-          <a href="#"><img src="../src/module1.jpg" id="modulejpg" /></a>
+          <a href="#"><img src="../src/en.jpg" id="modulejpg" /></a>
           <h4 id="moduletitle">Anglais</h4>
           <button
             id="module-btn"
@@ -639,7 +641,7 @@
             <a href="../pdf/a1/fr/S1/6.pdf">Télécharger</a>
             <button
               type="button"
-              onclick="voir('courspdf','mod4','../pdf/a1/fr/S1/1.pdf')"
+              onclick="voir('courspdf','mod4','../pdf/a1/fr//1.pdf')"
             >
               Voir
             </button>
@@ -758,6 +760,7 @@
           height="900"
           id="pdfhere"
         >
+
           <!-- <iframe -->
           <!-- src="https://pdfjs-express.s3-us-west-2.amazonaws.com/docs/choosing-a-pdf-viewer.pdf" -->
           <!-- width="80%" -->
@@ -765,7 +768,30 @@
           <!-- > -->
           <!-- <p>Ce navigator ne supporte pas PDF !</p> -->
           <!-- </iframe> -->
-        </object>
+        </object><br><br>
+        <button type="button"id="_avis_" onclick="document.getElementById('inscrirePourLangage').style.display='block'">Commentaire,Question?</button>
+        <div class="inscrirePourLangage" id="inscrirePourLangage">
+          <form action="">
+            <p>
+    Remplir Votre Informations, un agent va vous contacter en un instant. 
+            </p>
+            <br /><label for="name">Nom Complet<span>*</span>:</label><br /><br />
+            <input type="text" name="name" id="" required /><br /><br />
+            <label for="email">Adresse Email <span>*</span>:</label><br /><br />
+            <input type="email" name="email" id="" required /><br /><br />
+            <label for="language">Type de soutien <span>*</span>:</label
+            ><br /><br />
+            <textarea name="" id="avis_message" cols="30" rows="10"placeholder="commentaire"></textarea>
+            <input type="submit" value="Envoyer" /><br /><br />
+            <button
+              type="button"
+              id="annuler_sabboner"
+              onclick="hide('inscrirePourLangage')"
+            >
+              Annuler
+            </button>
+          </form>
+        </div>
       </div>
     </main>
     <footer>

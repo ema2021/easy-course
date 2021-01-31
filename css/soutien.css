@@ -1,12 +1,38 @@
+.contenu_principal{
+    background-image: url('../src/soutien3.jpg');
+    /* background-position: right bottom, left top; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:93%;
+    margin:auto;
+    margin-top:5% ;
+    border-radius: 2px;
+    /* opacity: .4; */
+}
+
 .descrip{
     padding: 5%;
     text-align: center;
+    /* color:; */
+    width: 55%;
+    margin: auto;
+    color: #ffffff;
+
 }
+
 .descrip p,.descrip h1,.descrip button{
     margin-top: 5%;
 }
 .descrip button{
     width: 30%;
+}
+.descrip p{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2;
+}
+.descrip h1{
+    color: rgb(28, 28, 39);
 }
 
 .inscrire_form{

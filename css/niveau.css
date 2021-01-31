@@ -13,9 +13,10 @@
 }
 #modulejpg{
     height:50%;
-    width: 50%;
+    width: 90%;
     border-radius:4px;
     transition-duration: 1s;
+    margin-top: 2%;
 }
 #modulejpg:hover{
   transform: scale(1.1);
@@ -25,19 +26,19 @@
 
     height: auto;
     border-radius: 4px;
-    border: 2px dashed #7d8588;
-    padding: 8%;
+    border: 1px solid #7d8588;
+    padding: 3%;
     font-size: 100%;
     text-align: center;
     /* background-color: rgb(226, 226, 220); */
 }
 #module-btn{
     color:white;
-    height: 15%;
+    height: 27px;
     background-color: #553041;
     border:none;
     border-radius:4px;
-    width:50%;
+    width:60%;
     margin-top:15px;
 }
 #moduletitle{
@@ -49,7 +50,8 @@
     /* display: inline-grid; */
     grid-template-columns: auto auto auto ;
     padding: 10px;
-    width: 80%;
+    width: 100%;
+    height: 100%;
     grid-gap:5px;
     margin: auto;
     margin-top: 1%;
@@ -103,10 +105,77 @@ a{
 }
 #mod1,#mod2,#mod3,#mod4,#mod5{
     display: none;
+    width: 80%;
     
 }
 #smstr_entete{
-    font-size: 30px;
+    font-size: 35px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 5%;
+    background:#553041;
+    color: white;
+    border-radius: 2px;
+    height: 50px;
+}
+.inscrirePourLangage{
+    /* background:#e8eae6; */
+    width: 40%;
+    margin:auto;
+    padding: 3%;
+    margin-top: 50px;
+    border-radius: 2px;
+    /* padding-left:3%; */
+    /* display: block; */
+}
+.inscrirePourLangage input[type=text],.inscrirePourLangage input[type=email]{
+    width:100%;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    padding-left: 10px;
+}
+.inscrirePourLangage span{color: red;}
+.inscrirePourLangage input[type=submit],#annuler_sabboner{
+    width: 50%;
+    height: 37px;
+    background: #553041;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+.inscrirePourLangage input:focus{
+    /* outline: 1px solid #552139; */
+    background: #F5FBEF;
+}
+.inscrirePourLangage label{
+    /* color: #553041; */
+    font-weight: bold;
+}
+#annuler_sabboner{
+    background: #633b38;
+    width: 23%;
+    font-size: 100%;
+    padding-bottom: 2%;
+    /* padding:auto; */
+}
+#lang_label{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #633b38;
+}
+#_avis_{
+    background: rgb(139, 57, 57);
+    height: 50px;
+    /* padding: 15px; */
+    
+}
+#avis_message{
+    width:100%;
+    border: none;
+    border-radius: 2px;
+    padding: 2%;
+    margin-bottom: 2%;
 }
 @media (max-width:375px){
     .lescoursdemodule1{
@@ -146,6 +215,11 @@ a{
     .cours{
         border-radius: 0px;
         padding: 2%;
+    }
+    #smstr_entete{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-bottom: 5%;
     }
 
 }
@@ -195,6 +269,18 @@ a{
         width:100%;
         justify-self: center;
     }
+
+    #smstr_entete{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-bottom: 5%;
+    }
+    #avis_form{
+        height: 20%;
+        background: #000000;
+        width: 100%;
+        color: white;
+    }
     @media (min-width:545px){
         .matieres{
             width: 100%;
@@ -222,6 +308,11 @@ a{
             padding: 0px;
     
             /* margin: auto; */
+        }
+        #smstr_entete{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            margin-bottom: 5%;
         }
     }
 
