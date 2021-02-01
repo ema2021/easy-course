@@ -38,6 +38,7 @@ header {
   height: 65px;
   width: 65px;
   border-radius: 50%;
+  border: 1px solid #123456;
 }
 #drop-menu {
   height: 35px;
