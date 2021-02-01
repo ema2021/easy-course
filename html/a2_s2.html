@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1ére Année-Semestre 1</title>
+    <link rel="shortcut icon" href="../src/1.png" type="image/x-icon">
     <link rel="stylesheet" href="./../css/project.css" />
     <link rel="stylesheet" href="../css/langages.css">
 
@@ -23,13 +24,12 @@
           <button type="button" id="sidemenu" onclick="openNav()">
             <i
               class="fa fa-bars"
-              style="font-size: 40px; color: #553041; margin-top: 10px"
             ></i>
           </button>
         </li>
         <li>
           <a href="./acceuil.html"
-            ><img src="../src/Copy of Easy5.png" id="logo"
+            ><img src="../src/easy-course.png" id="logo"
           /></a>
         </li>
         <li id="search_bar">
@@ -769,17 +769,17 @@
           <!-- <p>Ce navigator ne supporte pas PDF !</p> -->
           <!-- </iframe> -->
         </object><br><br>
-        <button type="button"id="_avis_" onclick="document.getElementById('inscrirePourLangage').style.display='block'">Commentaire,Question?</button>
+        <button type="button"id="_avis_" onclick="show('inscrirePourLangage',100)">Commentaire,Question?</button>
         <div class="inscrirePourLangage" id="inscrirePourLangage">
           <form action="">
             <p>
     Remplir Votre Informations, un agent va vous contacter en un instant. 
             </p>
-            <br /><label for="name">Nom Complet<span>*</span>:</label><br /><br />
+            <br /><label for="name">Nom Complet:</label><br /><br />
             <input type="text" name="name" id="" required /><br /><br />
-            <label for="email">Adresse Email <span>*</span>:</label><br /><br />
+            <label for="email">Adresse Email :</label><br /><br />
             <input type="email" name="email" id="" required /><br /><br />
-            <label for="language">Type de soutien <span>*</span>:</label
+            <label for="language">Type de soutien :</label
             ><br /><br />
             <textarea name="" id="avis_message" cols="30" rows="10"placeholder="commentaire"></textarea>
             <input type="submit" value="Envoyer" /><br /><br />
@@ -809,7 +809,7 @@
         <span id="ft_email_mess" style="color: #bcd397"></span>
       </div>
       <div class="footer_links">
-        <img src="../src/Copy of Easy5.png" id="logof" />
+        <img src="../src/easy-course.png" id="logof" />
 
         <ul id="footer_contact">
           <li id="he_">
