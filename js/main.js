@@ -1,8 +1,6 @@
 var pdfmod = "";
 var rtr_btn = 0; //button de retour
-function nav_a_active(id_a) {
-  x = document.getElementById(id_a).parentElement;
-}
+
 window.onscroll = function () {
   myFunction();
 };

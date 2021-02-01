@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,10 @@ button:hover {
   background: none;
   text-align: center;
   padding-top: 15px;
+  color:#123456;
+  font-size: 40px; 
+   margin-top: 10px;
+
 }
 header {
   background-color: white;
@@ -20,7 +25,7 @@ header {
   margin-top: 0;
   /* margin-left: 2%; */
   /* margin-right: 2%; */
-  border-bottom: 1px solid #553041;
+  border-bottom: 1px solid #123456;
   /* border-: 12px; */
   /* margin-bottom: 10%; */
   top: 0;
@@ -64,6 +69,7 @@ header {
   padding-top: 30px;
   /* width: 30%; */
   margin-right: 3%;
+  
 }
 #search {
   /* text-align: center; */
@@ -72,7 +78,7 @@ header {
 #isearch {
   height: 31px;
   border: 0.5px solid;
-  border-color: #553041;
+  border-color: #123456;
   border-radius: 2%;
   width: 200px;
   float: left;
@@ -87,13 +93,13 @@ button {
 }
 #login-btn,
 #sign-btn {
-  background-color: #553041;
+  background-color: #123456;
   height: 30px;
   width: 80px;
   font-size: 90%;
   border: none;
   border-radius: 3px;
-  border-color: #553041;
+  border-color: #123456;
   text-align: center;
   color: white;
   margin-left: 8px;
@@ -115,26 +121,26 @@ button {
   font-size: 16px;
 }
 #nav_links:focus {
-  background-color: #553041;
+  background-color: #123456;
 }
 #nav_links a {
-  color: #553041;
+  color: #123456;
   /* height: 20px; */
 }
 /* #nav_links a:hover{
     color: white;
-    background: #553041;
+    background: #123456;
    } */
 #nav_links a:active {
   background: grey;
 }
 #nav_links a:hover {
   color: white;
-  background: #553041;
+  background: #123456;
 }
 /* Dropdown Button */
 .dropbtn {
-  background-color: #553041;
+  background-color: #123456;
   color: white;
   padding: 16px;
   font-size: 22px;
@@ -251,7 +257,7 @@ header + main {
   margin-left: 40%;
   margin-top: 60px;
   justify-self: center;
-  background-color: #553041;
+  background-color: #123456;
   border: none;
   border-radius: 5px;
   color: white;
@@ -270,7 +276,7 @@ header + main {
   grid-template-columns: 40% auto;
   grid-gap: 3%;
   background: #e8eae6;
-  /* border:1px solid #553041; */
+  /* border:1px solid #123456; */
   border-radius:3px;
 }
 #presente_img{
@@ -285,6 +291,7 @@ header + main {
   margin-top: 6%;
   width: 30%;
   height: 40px;
+  margin-left: 100px;
 }
 #present_texte p{
   line-height: 2;
@@ -308,7 +315,7 @@ footer {
   padding-bottom: 40px;
 }
 .footer_newsletter {
-  background-color: #553041;
+  background-color: #123456;
   height: 160px;
   text-align: center;
   padding-top: 2%;
@@ -327,7 +334,7 @@ footer {
   height: 36px;
   border: none;
   outline: none;
-  /* border-color: #553041; */
+  /* border-color: #123456; */
   /* width: 70%; */
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -453,7 +460,7 @@ input {
 }
 
 #enrgistrer:hover {
-  background-color: #553041;
+  background-color: #123456;
 }
 
 #message_c {
@@ -494,7 +501,7 @@ input {
   z-index: 1; /* Stay on top */
   top: 90px;
   left: 2%;
-  background-color: #553041; /* Black*/
+  background-color: #123456; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -573,7 +580,7 @@ input {
 #Lginbutton,
 .cancelbtn,
 #signupbutton {
-  background-color: #553041;
+  background-color: #123456;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -590,7 +597,8 @@ input {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #633b38;
+  background-color:rgb(122, 26, 26);
+  font-weight: bold;
 }
 
 /* Center the image and position the close button */
@@ -664,7 +672,7 @@ span.psw {
 
 .close:hover,
 .close:focus {
-  color: rgb(110, 77, 77);
+  color:#123456;
   cursor: pointer;
 }
 
@@ -705,7 +713,7 @@ span.psw {
   }
 }
 #uname_mess {
-  color: #553041;
+  color: #123456;
 }
 .fa-facebook {
   background: #3b5998;
@@ -718,14 +726,14 @@ span.psw {
 button {
   border: none;
   border-radius: 3px;
-  background-color: #553041;
+  background-color: #123456;
   color: white;
   font-size: 100%;
   padding: 1%;
 }
 #search-btn,
 .aceuil-search button {
-  background: #553041;
+  background: #123456;
   color: #f2f2f2;
   float: right;
   padding: 5px 10px;
@@ -759,7 +767,7 @@ button {
   /* width:50%; */
   /* height: 40px; */
   padding: 6px 12px;
-  border: 0.5px solid #553041;
+  border: 0.5px solid #123456;
   padding-right: 0;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -827,7 +835,7 @@ button {
     margin-top: 0;
     /* margin-left: 2%; */
     /* margin-right: 2%; */
-    border-bottom: 2px solid #553041;
+    border-bottom: 2px solid #123456;
     /* border-: 12px; */
     /* margin-bottom: 10%; */
     /* top: 0; */
@@ -862,16 +870,17 @@ button {
     padding-top: 5px;
     width: 100%;
     margin-left: 0px;
+    padding: 1%;
   }
   #login-btn,
 #sign-btn {
-  background-color: #553041;
+  background-color: #123456;
   height: 30px;
   width:auto;
   font-size: 90%;
   border: none;
   border-radius: 3px;
-  border-color: #553041;
+  border-color: #123456;
   text-align: start;
   color: white;
   margin-left: 1px;
@@ -894,20 +903,20 @@ button {
 #isearch {
   height: 31px;
   border: 0.5px solid;
-  border-color: #553041;
+  border-color: #123456;
   border-radius: 2%;
   width: 50%;
   float: left;
   padding-left: 2px;
 }
 #sign-btn {
-  background-color: #553041;
+  background-color: #123456;
   height: 30px;
   width: auto;
   /* font-size: 90%; */
   border: none;
   border-radius: 3px;
-  border-color: #553041;
+  border-color: #123456;
   text-align: center;
   color: white;
   margin-left: 0px;
@@ -927,7 +936,7 @@ button {
   grid-template-columns: none;
   grid-gap: 3%;
   background: #e8eae6;
-  /* border:1px solid #553041; */
+  /* border:1px solid #123456; */
   border-radius:3px;
 }
 }
