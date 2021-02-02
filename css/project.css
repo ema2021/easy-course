@@ -966,4 +966,16 @@ button {
   /* border:1px solid #123456; */
   border-radius:3px;
 }
+.contenu_principal{
+  /* background: #000; */
+  height: auto;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  padding:2%;
+}
+.site_objectif{
+  width: auto;
+  padding:5px;
+}
 }
