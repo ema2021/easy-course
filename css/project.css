@@ -303,7 +303,7 @@ header + main {
   color: #34556b;
 }
 footer {
-  background: rgb(80, 77, 77);
+  background: grey;
   /* background: #a39f9b; */
   /* margin-left:2%; */
   /* margin-right: 2%; */
@@ -348,7 +348,7 @@ input {
   outline: none;
 }
 .footer_newsletter button {
-  background: rgb(80, 77, 77);
+  background:grey;
   color: #f2f2f2;
   /* padding: 8px 10px; */
   /* margin-right:16px ; */
