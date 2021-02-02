@@ -1,11 +1,11 @@
-.contenu_principal{
+.contenu_principal_s{
     background-image: url('../src/soutien3.jpg');
     /* background-position: right bottom, left top; */
     background-size: cover;
     background-repeat: no-repeat;
     width:93%;
     margin:auto;
-    margin-top:5% ;
+    margin-top:0px ;
     border-radius: 2px;
     /* opacity: .4; */
 }

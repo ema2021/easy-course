@@ -275,10 +275,10 @@ header + main {
 
 .site_objectif{
   height:60%;
-  background: #112233;
+  /* background: #112233; */
   margin: 5%;
   font-size: 20px;
-  color: white;
+  /* color: white; */
 }
 .presentation_de_sujet{
   height:20%;
