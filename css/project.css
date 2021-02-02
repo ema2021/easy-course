@@ -274,7 +274,7 @@ header + main {
 }
 
 .site_objectif{
-  height:60%;
+  /* height:60%; */
   /* background: #112233; */
   margin: 5%;
   font-size: 20px;
@@ -330,7 +330,7 @@ footer {
 }
 .footer_newsletter {
   background-color: #123456;
-  height: 160px;
+  height: 200px;
   text-align: center;
   padding-top: 2%;
   border-top-left-radius: 5px;
@@ -338,6 +338,7 @@ footer {
 }
 #news_email{
   height: 60px;
+  margin-top: 3%;
   background: #000;
 }
 .footer_newsletter input {
