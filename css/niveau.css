@@ -136,7 +136,7 @@ a{
     padding-left: 10px;
 }
 /* .inscrirePourLangage span{color: red;} */
-.inscrirePourLangage input[type=submit],#rgb(122, 26, 26)er_sabboner{
+.inscrirePourLangage input[type=submit],#annuler_sabboner{
     width: 50%;
     height: 37px;
     background: #123456;
@@ -218,7 +218,7 @@ a{
     }
     #smstr_entete{
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 1;
         margin-bottom: 5%;
     }
 
@@ -272,7 +272,7 @@ a{
 
     #smstr_entete{
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 2;
         margin-bottom: 5%;
     }
     #avis_form{
