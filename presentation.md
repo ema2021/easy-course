@@ -39,4 +39,10 @@ Cette page se construise (se compose) de deux sections:
 * **Section 4:**
 * **Section 5:**
 
-
+# Soutien:
+un autre service que le site rend à ses participants, **Le soutien** .
+Comme vous  (savez) la plupart des  élèves ont l'habitude de recevoir l'information sans aucun effort. Durant La pandémie de **COVID19** Les élèves sont forcé de chercher l'information par eux-meme. Mais le support de cours tout seule est insuffisant. Ce service sert à résoudre ce problème en jouant le role d'intérmediaire entre les profs et les élèves .
+Dans La page,Il y a ce texte devant vous suivi par le bouton **s'inscrire** qui affiche un formulaire à remplir avec les informations personnelles afin d'atteindre les cours de soutien, que ce soit en ligne, au domicile ou au centre.
+# Langages:
+Bien sure on a pas oublié que le site est aussi un espace pour tous le public et non pas seulement pour la population cible. Pour Cette Raison on a créé la page **langages** pour ce qui veut apprendre les langues ,En particulier la langue française et anglaise. Les deux textes expliquent **ce que je suis en train de dire.**
+Et voilà on clique sur **s'abonner** pour y avoir mon abonnement dans cette service de  la plateforme. Afin d'atteindre les séances de langages séléctionnées. 
