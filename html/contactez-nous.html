@@ -50,7 +50,8 @@
         </div>
         <div id="id01" class="modal">
 
-            <form class="modal-content animate" action="/action_page.php" method="post">
+                        <form class="modal-content animate" action="/action_page.php" method="post" onsubmit="alert('La création a été faite avec succès')">
+
                 <div class="imgcontainer">
                     <span onclick="document.getElementById('id01').style.display='none'" class="close"
                         title="Close Modal">&times;</span>
@@ -80,7 +81,8 @@
         </div>
         <div id="id02" class="modal">
 
-            <form class="modal-content animate" action="/action_page.php" method="post">
+                        <form class="modal-content animate" action="/action_page.php" method="post" onsubmit="alert('La création a été faite avec succès')">
+
                 <div class="imgcontainer">
                     <span onclick="document.getElementById('id02').style.display='none'" class="close"
                         title="Close Modal">&times;</span>
@@ -88,7 +90,6 @@
                 </div>
 
                 <div class="container">
-                                        <form onsubmit="alert('La creation a été faite avec succès')">
                     <label for="uname"><b>Nom:</b></label>
                     <input type="text" placeholder="Entrer le nom" name="name" id="signupName"
                         oninput="validateName('signupName', 'signupName_mess')" required><br>
@@ -102,8 +103,8 @@
 
                     <label for="psw"><b>Mot de Passe:</b></label>
                     <input type="password" placeholder="Entrer Le mot de passe" name="psw" required>
-                    <input type="submit" id="signupbutton">Enregistrer</input>
 
+                    <button type="submit" id="signupbutton">Enregistrer</button>
                 </div>
 
                 <div class="container" style="background-color:#f1f1f1">

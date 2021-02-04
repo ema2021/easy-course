@@ -251,12 +251,12 @@ header + main {
   color: white;
   /* margin-top: 15px; */
 }
-.slides h2 ,.slides h3,h4{
+.slides h1 ,.slides h2,h4{
   /* margin-left: 35%; */
   /* color: black; */
   /* font-family: 'awesome'; */
   /* margin-top: 15px; */
-  color: #ffffff;
+  color: #123456;
 }
 .slides > button {
   width: 300px;
@@ -286,12 +286,12 @@ header + main {
   /* height:60%; */
   /* background: #112233; */
   /* margin: 5%; */
-  font-size: 32px;
-  width: 60%;
+  font-size: 23px;
+  width: 50%;
   padding-left: 2%;
-  color: white;
-  /* margin-bottom: 2%; */
   /* color: white; */
+  /* margin-bottom: 2%; */
+  color: #123456;
 }
 .presentation_de_sujet{
   height:20%;
@@ -848,6 +848,9 @@ button {
   footer{
     align-content: center;
   }
+  footer h2{
+    text-align: center;
+  }
   .footer_links {
     list-style-type: none;
     margin: 0;
@@ -867,11 +870,12 @@ button {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 40px;
-    text-align: start;
+    /* padding-left: 33%; */
+    text-align: center;
     /* margin-right: 14%; */
   }
   .footer_links ul li{
-    padding-left: 35%;
+    /* padding-left: 33%; */
   }
   #logof {
     height: 120px;
@@ -905,7 +909,7 @@ button {
     height: 50px;
     width: 50px;
     position: absolute;
-    top: 19%;
+    top: 17%;
     right: 7%;
   }
   .monnavbar {
