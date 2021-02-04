@@ -227,7 +227,7 @@ header + main {
   /* max-height: 800px; */
   /* height: 1200px; */
   padding-top: 60px;
-  background: url(../src/Digital-Classroom-Remote-Teaching.webp);
+  background: url(../src/contenu_p1.svg);
   background-repeat: no-repeat;
   /* opacity: 0.7; */
   background-size: cover;
@@ -236,6 +236,7 @@ header + main {
   padding: 5%;
   padding-left: 1%;
   width: auto;
+  height: 15cm;
   /* color: white; */
   /* position: relative; */
   /* margin-top: 5%; */
@@ -247,14 +248,15 @@ header + main {
   font-size: 20px;
   font-weight: bolder;
   line-height: 2;
-  color: #000000;
-  margin-top: 15px;
+  color: white;
+  /* margin-top: 15px; */
 }
-.slides h2 ,.slides h3{
+.slides h2 ,.slides h3,h4{
   /* margin-left: 35%; */
   /* color: black; */
   /* font-family: 'awesome'; */
-  margin-top: 15px;
+  /* margin-top: 15px; */
+  color: #ffffff;
 }
 .slides > button {
   width: 300px;
@@ -283,10 +285,11 @@ header + main {
 .site_objectif{
   /* height:60%; */
   /* background: #112233; */
-  margin: 5%;
-  font-size: 120%;
+  /* margin: 5%; */
+  font-size: 32px;
   width: 60%;
   padding-left: 2%;
+  color: white;
   /* margin-bottom: 2%; */
   /* color: white; */
 }
@@ -995,6 +998,7 @@ button {
 .contenu_principal{
   /* background: #000; */
   height: 600px;
+  background-image: url(../src/Contenu_p_bg_phone.svg);
   background-size: cover;
   width: 100%;
   margin: auto;
