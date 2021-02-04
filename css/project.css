@@ -299,7 +299,7 @@ header + main {
   grid-template-columns: 40% auto;
   grid-gap: 3%;
   background: #e8eae6;
-  border:1px solid cyan;
+  border:1px solid #123456;
   border-radius:3px;
 }
 #presente_img{
