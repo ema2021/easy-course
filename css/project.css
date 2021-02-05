@@ -324,7 +324,7 @@ header + main {
   line-height: 1.5;
   font-size:180%;
   margin-top: 3%;
-  width: 80%;
+  /* width: 80%; */
 }
 #present_texte h2{
   color: #34556b;
@@ -344,7 +344,7 @@ footer {
 }
 .footer_newsletter {
   background-color: #123456;
-  height: auto;
+  height: 200px;
   text-align: center;
   padding-top: 2%;
   border-top-left-radius: 5px;
@@ -352,16 +352,16 @@ footer {
   padding-bottom: 1.5%;
 }
 #news_email{
-  height: 60px;
-  margin-top: 20px;
+  /* height: 60px; */
+  /* margin-top: 20px; */
   background: #000;
 }
 .footer_newsletter input {
-  width: 40%;
+  /* width: 40%; */
   /* height: 20%; */
-  margin-top: 13px;
+  /* margin-top: 13px; */
   margin-right: 0;
-  height: 36px;
+  /* height: 36px; */
   border: none;
   outline: none;
   /* border-color: #123456; */
@@ -369,14 +369,15 @@ footer {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   /* float: left; */
-  padding-left: 1%;
+  /* padding-left: 1%; */
   /* font-size: 18px; */
   /* font-weight: bolder; */
   color: rgb(36, 33, 44);
-  margin-top:50px;
+  /* margin-top:50px; */
 }
 input {
   outline: none;
+  padding-left: 13px;
 }
 .footer_newsletter button {
   background:#112233;
@@ -384,17 +385,36 @@ input {
   /* padding: 8px 10px; */
   /* margin-right:16px ; */
   /* font-size: 20px; */
-  height:36px;
+  /* height:36px; */
   width: auto;
   /* padding-bottom: 2%; */
   /* margin-top:13px; */
   /* border: none; */
   border-radius: 0px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  margin-top: 3px;
+  /* border-top-right-radius: 3px; */
+  /* border-bottom-right-radius: 3px; */
+  /* margin-top: 3px; */
   padding: 0;
-  padding-right: 6px;
+  /* padding-right: 6px; */
+}
+.footer_newsletter #acc-search{
+  width: 50%;
+  /* height: 40px; */
+  border-radius: 5px;
+  grid-template-columns: auto 120px;
+  display: inline-grid;
+  background-color: white;
+  margin-left: 0;
+  text-align: start;
+  margin-left: 0px;
+  margin-top: 30px;
+  /* height: 34px; */
+  /* border-top-left-radius:10px ; */
+  /* border-bottom-left-radius:10px ; */
+  /* display: none; */
+}
+#button-cours{
+  height: 37px;
 }
 .footer_links {
   list-style-type: none;
@@ -988,7 +1008,7 @@ button {
   
 }
 .presentation_de_sujet{
-  height:1120px;
+  height:1280px;
   width: 100%;
   margin:auto;
   margin-top: 10px;
@@ -1033,5 +1053,8 @@ button {
 }
 #sidemenu{
   font-size: 41px;
+}
+.footer_newsletter #acc-search{
+  width: auto;
 }
 }

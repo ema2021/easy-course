@@ -186,8 +186,8 @@
             <p> EasyCourse est un site de support pédagogique. Nous proposons une sélection de contenus pédagogiques
                 conformes aux programmes officiels.</p>
 
-            <p>Pour chaque matière, EasyCourse propose un suivi chronologique  comprenant des cours,Pour Les éléves qui trouvent des difficultés, On a met a leurs disposition <a href="soutien.html">Le Soutien</a>. Nous utilisons les dernières technologies Web pour assurer une
-                présentation claire et ergonomique. </p>
+            <p>Pour chaque matière, EasyCourse propose un suivi chronologique  comprenant des <a href="a1_s1.html">cours</a>,Pour Les éléves qui trouvent des difficultés, On a met a leurs disposition <a href="soutien.html">Le Soutien</a>. Nous utilisons les dernières technologies Web pour assurer une
+                présentation claire et érgonomique. Un autre Service était ajouté pour les autres visiteurs de site, <a href="langages.html">lanagages</a> , dont ils peuvent apprendre les langues tels anglais et Français. </p>
             <button type="button" onclick="document.getElementById('id02').style.display='block'"><i
                     class="fa fa-user-plus" aria-hidden="true"></i>
                 Créer un Compte</button>
@@ -197,10 +197,14 @@
     <footer>
         <div class="footer_newsletter">
             <h1 style="color: white;">S'INSCRIRE À LA NEWSLETTER</h1>
-            <input type="email" placeholder="Email" id="footer_email"
-                oninput="validateEmail('footer_email', 'ft_email_mess')">
-            <button type="button" href="#" style="font-size:18px;">SOUMETTRE</button><br><br>
-            <span id="ft_email_mess" style="color:#8b9974;"></span>
+            <form action="" class="acceuil-search" id="acc-search">
+                <input type="email" id="isearch_accf" placeholder="Email"
+                    class="acceuil-searchInp" oninput="validateEmail('isearch_accf','ft_email_mess')">
+                <button id="button-cours">
+                    SOUMETTRE
+                </button>
+                </form><br><br>
+            <span id="ft_email_mess" style="color:#8b9974;"></span><br><br>
         </div>
         <div class="footer_links">
             <a href="acceuil.html"><img src="../src/easy-course.png" id="logof"></a>
