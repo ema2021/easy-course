@@ -880,6 +880,9 @@ button {
     margin-right: 0%;
     text-align: center;
   }
+  .footer_newsletter #acc-search{
+    width: 80%;
+  }
   .footer_links ul {
     width: 100%;
     float: none;
@@ -1055,7 +1058,7 @@ button {
   font-size: 41px;
 }
 .footer_newsletter #acc-search{
-  width: auto;
+  width: 80%;
 }
 }
 #ec{

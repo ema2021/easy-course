@@ -1,15 +1,17 @@
 
 .niveau{
     text-align: center;
+    height: 60%;
 }
 .matieres{
     width: 80%;
     margin: auto;
+    /* height: 50%; */
     display: inline-grid;
     grid-template-columns: auto auto auto ;
     /* background-color: #2196F3; */
     /* padding: 10px; */
-    grid-gap:2%;
+    grid-gap:5px;
 }
 #modulejpg{
     height:50%;
@@ -24,10 +26,10 @@
 }
 #module{
 
-    height: auto;
+    /* height: 80%; */
     border-radius: 2px;
     border: 1px solid #7d8588;
-    /* padding: 3%; */
+    padding: 6px;
     font-size: 100%;
     text-align: center;
     /* background-color: rgb(226, 226, 220); */
