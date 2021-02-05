@@ -414,7 +414,7 @@ input {
   /* display: none; */
 }
 #button-cours{
-  height: 37px;
+  /* height: 37px; */
 }
 .footer_links {
   list-style-type: none;
@@ -803,7 +803,7 @@ button {
   font-size: 20px;
 }
 #button-cours {
-  min-width: 40px;
+  /* min-width: 40px; */
 }
 .acceuil-search {
   display: inline-grid;
@@ -836,7 +836,7 @@ button {
   background: #14213d;
   color: #f2f2f2;
   /* float: right; */
-  padding: 6px 12px;
+  /* padding: 6px 12px; */
   /* margin-left: 0; */
   /* margin-right:16px ; */
   /* font-size: 100%; */
@@ -1057,4 +1057,11 @@ button {
 .footer_newsletter #acc-search{
   width: auto;
 }
+}
+#ec{
+  color: White;
+  font-size: 40px;
+}
+a:hover{
+  color: skyblue;
 }

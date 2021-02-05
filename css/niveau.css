@@ -58,7 +58,7 @@
     /* margin: auto; */
 }
 .cours{
-    background-color: #becfe2;
+    background-color: #d3d9e0;
     border-radius: 5px;
     padding: 1%;
 }
@@ -71,6 +71,7 @@
     color:white;
     font-size: 100%;
     font-weight: bold;
+    margin-left: 6px;
 }
 .cours p,.cours p,.cours button,.cours a{
     margin-top: 10px;
