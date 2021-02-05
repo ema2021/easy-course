@@ -34,7 +34,8 @@
           /></a>
         </li>
         <li id="search_bar">
-          <input type="search" id="isearch" placeholder="Seacrh here" />
+                    <input type="search" id="isearch" placeholder="Chercher ici ..." />
+
           <button style="font-size: 18px" id="search-btn">
             <i class="fa fa-search"></i>
           </button>
@@ -305,14 +306,13 @@ Remplir Votre Informations, un agent va vous contacter en un instant.
         <h2 style="color: white; font-weight: bold">
           S'INSCRIRE À LA NEWSLETTER
         </h2>
-        <input
-          type="email"
-          placeholder="Email"
-          id="footer_email"
-          oninput="validateEmail('footer_email', 'ft_email_mess')"
-        />
-        <button type="button" href="#" style="font-size: 18px">SOUMETTRE</button
-        ><br /><br />
+            <form action="" class="acceuil-search" id="acc-search">
+                <input type="email" id="isearch_accf" placeholder="Email"
+                    class="acceuil-searchInp" oninput="validateEmail('isearch_accf','ft_email_mess')">
+                <button id="button-cours">
+                    SOUMETTRE
+                </button>
+                </form><br /><br />
         <span id="ft_email_mess" style="color: #8b9974"></span><br>
       </div>
       <div class="footer_links">
@@ -364,7 +364,7 @@ Remplir Votre Informations, un agent va vous contacter en un instant.
           <li>
             <a href="https://facebook.com/easy-course" class="fab fa-facebook" target="_blank"></a> facebook.com/easy-course
           </li>
-          <li><a href="#" class="fab fa-whatsapp"></a> +212612538694</li>
+          <li><a href="https://api.whatsapp.com/send?phone=212694652094" class="fab fa-whatsapp" target="_blank"></a>  +212612538694</li>
           <li>
             <a href="https://instagram.com/easy-course" class="fab fa-instagram" target="_blank"></a> instagram.com/easy-course
           </li>
