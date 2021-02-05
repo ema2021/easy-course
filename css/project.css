@@ -204,7 +204,6 @@ button {
 .search_form {
   float: right;
   padding: 30px;
-  /* background: cyan; */
 }
 #login {
   background-color: rgb(42, 93, 141);
@@ -401,8 +400,8 @@ input {
   width: 50%;
   /* height: 40px; */
   border-radius: 5px;
-  grid-template-columns: auto 120px;
   display: inline-grid;
+  grid-template-columns: auto 120px;
   background-color: white;
   margin-left: 0;
   text-align: start;
@@ -573,8 +572,8 @@ input {
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #706666;
-  background-color: rgb(240, 231, 231);
+  color: white;
+  background-color: rgb(3, 3, 129);
 }
 
 /* Position and style the close button (top right corner) */
