@@ -1,16 +1,11 @@
-
 .niveau{
     text-align: center;
-    /* height: 60%; */
 }
 .matieres{
     width: 80%;
     margin: auto;
-    /* height: 50%; */
     display: inline-grid;
     grid-template-columns: auto auto auto ;
-    /* background-color: #2196F3; */
-    /* padding: 10px; */
     grid-gap:5px;
 }
 #modulejpg{
@@ -25,14 +20,11 @@
   transition-duration: 1s;
 }
 #module{
-
-    /* height: 80%; */
     border-radius: 2px;
     border: 1px solid #7d8588;
     padding: 6px;
     font-size: 100%;
     text-align: center;
-    /* background-color: rgb(226, 226, 220); */
 }
 #module-btn{
     color:white;
@@ -49,7 +41,6 @@
 }
 .lescoursdemodule1{
     display: none;
-    /* display: inline-grid; */
     grid-template-columns: auto auto  ;
     padding: 0px;
     width: 100%;
@@ -57,7 +48,6 @@
     grid-gap:15px;
     margin: auto;
     margin-top: 1%;
-    /* margin: auto; */
 }
 .cours{
     background-color: #d3d9e0;
@@ -84,11 +74,9 @@ a{
 .rtr-btn{
     width: 60px;
     height: 35px;
-    /* margin-top:50px; */
     margin-left: 2%;
     margin-bottom: 2%;
     background-color: #112233;
-    /* display: none; */
     font-size: 23px;
     padding:1px;
     font-variant-ligatures: ;
@@ -100,11 +88,8 @@ a{
 #courspdf{
     display: none;
     border: none;
-    /* border-radius: 10px; */
-    /* background-color: #123456; */
     margin-top: 10px;
     width: auto;
-    /* height: 500px; */
 }
 #mod1,#mod2,#mod3,#mod4,#mod5{
     display: none;
@@ -122,14 +107,11 @@ a{
     height: auto;
 }
 .inscrirePourLangage{
-    /* background:#e8eae6; */
     width: 40%;
     margin:auto;
     padding: 3%;
     margin-top: 50px;
     border-radius: 2px;
-    /* padding-left:3%; */
-    /* display: block; */
 }
 .inscrirePourLangage input[type=text],.inscrirePourLangage input[type=email]{
     width:100%;
@@ -138,7 +120,6 @@ a{
     border: none;
     padding-left: 10px;
 }
-/* .inscrirePourLangage span{color: red;} */
 .inscrirePourLangage input[type=submit],#annuler_sabboner{
     width: 50%;
     height: 37px;
@@ -148,11 +129,9 @@ a{
     border-radius: 3px;
 }
 .inscrirePourLangage input:focus{
-    /* outline: 1px solid #552139; */
     background: #F5FBEF;
 }
 .inscrirePourLangage label{
-    /* color: #123456; */
     font-weight: bold;
 }
 #annuler_sabboner{
@@ -160,18 +139,10 @@ a{
     width: 23%;
     font-size: 100%;
     padding-bottom: 2%;
-    /* padding:auto; */
 }
-/* #lang_label{
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #16550a; */
-/* } */
 #_avis_{
     background: #123456;
     height: 50px;
-    /* padding: 15px; */
-    
 }
 #avis_message{
     width:100%;
@@ -183,37 +154,27 @@ a{
 @media (max-width:375px){
     .lescoursdemodule1{
         display: none;
-        /* display: inline-grid; */
-        /* grid-template-columns: auto auto  ; */
-        /* background-color: #2196F3; */
-        /* padding: 10px; */
         width: 100%;
         grid-gap:5px;
         margin-top: 10px;
         grid-template-columns:none;
         margin: 0px;
         padding: 0px;
-
-        /* margin: auto; */
     }
     .matieres{
         width: 100%;
         margin: auto;
         display: inline-grid;
         grid-template-columns: none ;
-        /* background-color: #2196F3; */
-        /* padding: 10px; */
         grid-gap:4px;
     }
     #module{
-
         height: auto;
         border-radius: 0px;
         border: 1px solid #123456;
         padding: 1%;
         font-size: 80%;
         text-align: center;
-        /* background-color: rgb(226, 226, 220); */
     }
     .cours{
         border-radius: 0px;
@@ -229,26 +190,18 @@ a{
 @media (max-width:773px){
     .lescoursdemodule1{
         display: none;
-        /* display: inline-grid; */
-        /* grid-template-columns: auto auto  ; */
-        /* background-color: #2196F3; */
-        /* padding: 10px; */
         width: 100%;
         grid-gap:5px;
         margin-top: 10px;
         grid-template-columns: none;
         margin: 0px;
         padding: 0px;
-
-        /* margin: auto; */
     }
     .matieres{
         width: 100%;
         margin: auto;
         display: inline-grid;
         grid-template-columns: none ;
-        /* background-color: #2196F3; */
-        /* padding: 10px; */
         grid-gap:4px;
     }
     #module{
@@ -259,7 +212,6 @@ a{
         padding: 1%;
         font-size: 80%;
         text-align: center;
-        /* background-color: rgb(226, 226, 220); */
     }
     .cours{
         border-radius: 0px;
@@ -272,7 +224,6 @@ a{
         width:100%;
         justify-self: center;
     }
-
     #smstr_entete{
         grid-column-start: 1;
         grid-column-end: 2;
@@ -290,8 +241,6 @@ a{
             margin: auto;
             display: inline-grid;
             grid-template-columns: auto auto ;
-            /* background-color: #2196F3; */
-            /* padding: 10px; */
             grid-gap:6px;
         }
         #module{
@@ -299,18 +248,12 @@ a{
         }
         .lescoursdemodule1{
             display: none;
-            /* display: inline-grid; */
-            /* grid-template-columns: auto auto  ; */
-            /* background-color: #2196F3; */
-            /* padding: 10px; */
             width: 100%;
             grid-gap:5px;
             margin-top: 10px;
             grid-template-columns: auto auto;
             margin: 0px;
             padding: 0px;
-    
-            /* margin: auto; */
         }
         #smstr_entete{
             grid-column-start: 1;

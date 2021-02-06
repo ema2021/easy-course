@@ -1,19 +1,16 @@
 .contenu_principal_s{
     background-image: url('../src/soutien3.jpg');
-    /* background-position: right bottom, left top; */
     background-size: cover;
     background-repeat: no-repeat;
     width:93%;
     margin:auto;
     margin-top:4% ;
     border-radius: 2px;
-    /* opacity: .4; */
 }
 
 .descrip{
     padding: 5%;
     text-align: center;
-    /* color:; */
     width: 55%;
     margin: auto;
     color: #ffffff;
@@ -64,7 +61,6 @@
     .descrip{
         padding: 2%;
         text-align: start;
-        /* color:; */
         width: auto;
         margin: auto;
         color: #ffffff;
