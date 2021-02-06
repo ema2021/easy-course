@@ -1,6 +1,4 @@
 var pdfmod = "";
-var rtr_btn = 0; //button de retour
-
 window.onscroll = function () {
   myFunction();
 };
@@ -51,32 +49,6 @@ function voir(pdf, courses, pdfpath) {
   document.getElementById("pdfhere").data = pdfpath;
   pdfmod = courses;
 }
-function rtrbtn_(a, b) {
-  document.getElementById(a).style.display = "inline-grid";
-  document.getElementById(b).style.display = "none";
-  rtr_btn--;
-}
-function retour(id_pluschar = "") {
-  switch (rtr_btn) {
-    case 1:
-      dest = "matiere" + id_pluschar;
-      maintenant = "lescoursdemodule1" + id_pluschar;
-      rtrbtn_(dest, maintenant);
-      document.getElementById("rtr-btn").style.display = "none";
-      break;
-    case 2:
-      dest = "lescoursdemodule1" + id_pluschar;
-      maintenant = "courspdf" + id_pluschar;
-      rtrbtn_(dest, maintenant);
-      break;
-    default:
-      break;
-  }
-}
-// function searchcours(){
-//   document.getElementById('tr_cours').style.display='none';
-//   document.getElementsById('acc-search').style.display='';
-// }
 function inscrire() {
   document.getElementById("inscrire_form").style.display = "block";
 }
